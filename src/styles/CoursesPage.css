@@ -1,0 +1,130 @@
+.courses-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.courses-container h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.tab {
+  padding: 12px 20px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab:hover {
+  color: #333;
+}
+
+.tab.active {
+  color: #667eea;
+  border-bottom-color: #667eea;
+}
+
+.courses-list,
+.offerings-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.course-card,
+.offering-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fafafa;
+  transition: all 0.3s;
+}
+
+.course-card:hover,
+.offering-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.course-header,
+.offering-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.course-header h3,
+.offering-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.course-code,
+.offering-term {
+  background-color: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.course-description {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.course-details,
+.offering-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail {
+  font-size: 13px;
+  color: #666;
+}
+
+.detail strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.offering-details p {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.offering-details strong {
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .courses-list,
+  .offerings-list {
+    grid-template-columns: 1fr;
+  }
+}

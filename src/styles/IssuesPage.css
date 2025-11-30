@@ -1,0 +1,139 @@
+.issues-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.issues-container h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.filters {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  min-width: 150px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.issues-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.issue-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fafafa;
+  transition: all 0.3s;
+}
+
+.issue-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.issue-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 16px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.issue-details {
+  margin-bottom: 15px;
+}
+
+.issue-details p {
+  margin: 8px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.issue-details strong {
+  color: #333;
+}
+
+.issue-update-form {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+}
+
+.issue-update-form .form-control {
+  margin-bottom: 12px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.btn-copy {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.btn-copy:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.btn-email {
+  background-color: #17a2b8;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn-email:hover {
+  background-color: #138496;
+}

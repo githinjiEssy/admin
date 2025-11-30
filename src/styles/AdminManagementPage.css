@@ -1,0 +1,74 @@
+.admin-management-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-management-container h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.register-form-card {
+  max-width: 500px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+}
+
+.register-form-card h3 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.register-form-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form-card .form-group {
+  margin-bottom: 18px;
+}
+
+.register-form-card .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.register-form-card .form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.register-form-card .form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.register-form-card .submit-btn {
+  padding: 12px;
+  background-color: #667eea;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.register-form-card .submit-btn:hover:not(:disabled) {
+  background-color: #5568d3;
+}
+
+.register-form-card .error-message,
+.register-form-card .success-message {
+  margin-bottom: 15px;
+}
