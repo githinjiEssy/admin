@@ -1,0 +1,175 @@
+[{
+  "_id": {
+    "$oid": "6916ecbac90515eb9933a3af"
+  },
+  "firstName": "Alex",
+  "lastName": "Njagi",
+  "age": 21,
+  "schoolID": 123456,
+  "major": "Software Engineering",
+  "currentYear": "Junior",
+  "email": "alex@email.com",
+  "password": "Alex",
+  "selections": [
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53496"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "69243f6672ce60a28bbfd56b"
+      }
+    },
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53498"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "69243f6672ce60a28bbfd56c"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6916eceec90515eb9933a3b1"
+  },
+  "firstName": "Daniella",
+  "lastName": "Chege",
+  "age": 20,
+  "schoolID": 654321,
+  "major": "Software Engineering",
+  "currentYear": "Junior",
+  "email": "daniella@email.com",
+  "password": "Daniella",
+  "selections": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692437f372ce60a28bbfd549"
+  },
+  "firstName": "Cynthia",
+  "lastName": "Yator",
+  "age": 26,
+  "schoolID": 135791,
+  "major": "Software Engineering",
+  "currentYear": "Junior",
+  "email": "cynthia@email.com",
+  "password": "Cynthia",
+  "selections": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692439e672ce60a28bbfd54e"
+  },
+  "firstName": "Test",
+  "lastName": "User",
+  "age": 23,
+  "schoolID": 653210,
+  "major": "Software Engineering",
+  "currentYear": "Senior",
+  "email": "testuser@email.com",
+  "password": "Test",
+  "selections": [
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53496"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "69243e2972ce60a28bbfd55c"
+      }
+    },
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53498"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "69243e2972ce60a28bbfd55d"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d7028a04838a2bcb9e1d"
+  },
+  "firstName": "Rufo",
+  "lastName": "Guyo",
+  "age": 21,
+  "schoolID": 676860,
+  "major": "Software Engineering",
+  "currentYear": "Junior",
+  "email": "rufo@email.com",
+  "password": "Rufo",
+  "selections": [
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53497"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "6926da3d8a04838a2bcb9e22"
+      }
+    },
+    {
+      "lecturer": {
+        "$oid": "6926d8ff20eb06e95ca310d6"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "6926da3d8a04838a2bcb9e23"
+      }
+    },
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53496"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "6926da3d8a04838a2bcb9e24"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926e1d696139e6a77b1e60c"
+  },
+  "firstName": "Dummy",
+  "lastName": "Student",
+  "age": 23,
+  "schoolID": 673526,
+  "major": "APT",
+  "currentYear": "Freshman",
+  "email": "dummy@email.com",
+  "password": "Dummy",
+  "selections": [
+    {
+      "lecturer": {
+        "$oid": "692435249fda30e9fbc53497"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "6926e26d96139e6a77b1e610"
+      }
+    },
+    {
+      "lecturer": {
+        "$oid": "6926d8ff20eb06e95ca310d6"
+      },
+      "marks": 0,
+      "_id": {
+        "$oid": "6926e26d96139e6a77b1e611"
+      }
+    }
+  ],
+  "__v": 0
+}]

@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "692435249fda30e9fbc53496"
+  },
+  "name": "Prof. Daisy",
+  "email": "profdaisy@email.com",
+  "course": "Web Development"
+},
+{
+  "_id": {
+    "$oid": "692435249fda30e9fbc53497"
+  },
+  "name": "Prof. Adede",
+  "email": "profadede@email.com",
+  "course": "Databases"
+},
+{
+  "_id": {
+    "$oid": "692435249fda30e9fbc53498"
+  },
+  "name": "Prof. Joy",
+  "email": "profjoy@email.com",
+  "course": "System Analysis"
+},
+{
+  "_id": {
+    "$oid": "6926d8ff20eb06e95ca310d6"
+  },
+  "name": "Prof. Marina",
+  "email": "profmarina@email.com",
+  "course": "Networking"
+},
+{
+  "_id": {
+    "$oid": "6926d8ff20eb06e95ca310d7"
+  },
+  "name": "Prof. Britney",
+  "email": "profbritney@email.com",
+  "course": "Cloud Computing"
+}]

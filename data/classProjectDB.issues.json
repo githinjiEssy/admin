@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "6926d2de737eb60481d012f3"
+  },
+  "student": {
+    "$oid": "692439e672ce60a28bbfd54e"
+  },
+  "lecturer": {
+    "$oid": "692435249fda30e9fbc53498"
+  },
+  "issueType": "missing_marks",
+  "subject": "Missing Marks",
+  "description": "Student is reporting missing marks",
+  "status": "pending",
+  "priority": "medium",
+  "attachments": [
+    "None"
+  ],
+  "createdAt": {
+    "$date": "2025-11-26T10:13:50.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T10:13:50.335Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926e31996139e6a77b1e61c"
+  },
+  "student": {
+    "$oid": "6926e1d696139e6a77b1e60c"
+  },
+  "lecturer": {
+    "$oid": "6926d8ff20eb06e95ca310d6"
+  },
+  "issueType": "missing_marks",
+  "subject": "Incorrect Marks for Dummy Student",
+  "description": "Student is reporting incorrect marks in this lecturers class",
+  "status": "pending",
+  "priority": "high",
+  "attachments": [
+    "None"
+  ],
+  "createdAt": {
+    "$date": "2025-11-26T11:23:05.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T11:23:05.839Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692700ed78006921c91d016b"
+  },
+  "student": {
+    "$oid": "6916ecbac90515eb9933a3af"
+  },
+  "lecturer": {
+    "$oid": "692435249fda30e9fbc53496"
+  },
+  "issueType": "missing_marks",
+  "subject": "Incorrect Marks",
+  "description": "My marks are now incorrect!",
+  "status": "Resolved",
+  "priority": "medium",
+  "attachments": [
+    "None"
+  ],
+  "createdAt": {
+    "$date": "2025-11-26T13:30:21.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T13:40:38.513Z"
+  },
+  "__v": 0
+}]
